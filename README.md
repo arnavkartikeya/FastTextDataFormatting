@@ -53,3 +53,10 @@ N	273
 P@1	0.498
 R@1	0.498
 ```
+## Libraries needed to run:
+The `print.py` file needs the following libraries to be accessable to it in order to run (pandas is most likely the only one needed to be installed):
+  - re
+  - pandas
+  - csv
+  - os
+  - sys
