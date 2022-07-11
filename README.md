@@ -38,6 +38,8 @@ In this example the dataset used is a Yelp star rating csv, and the key indicate
 
 `generate_txt.sh` will also create a `test.txt` and `train.txt` file for testing and training respectively in the proper format that fastText requires. `generate_txt.sh` will format text data according to nlp standards by making all text lower case and adding spaces between punctuations (you're becomes you ' re) 
 
+A csv file with a row of `I had a great time at you're place today!,5` where comma indicates a new column and the first column is the feature while the second is the output will be turned into `i had a great time at you ' re place today ! __label__0` in the `train.txt` or `test.txt` file in accordance with fastText model training. 
+
 ## Full example:
 The following is an example usecase of the script given a csv file with yelp review data, which has features of text and user_id, and the outcome being a 1 to 5 star rating.
 
