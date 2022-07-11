@@ -18,9 +18,9 @@ Run
 
 ## Flags for generate_txt
 
-`-c`: Path to the csv file
-`-f`: Features, which columns are inputs for fastText training. If there are multiple features, seperate them with commas but not spaces
-`-l`: Labels, which columns is the label for fastText training. 
+`-c`: Path to the csv file\
+`-f`: Features, which columns are inputs for fastText training. If there are multiple features, seperate them with commas but not spaces\
+`-l`: Labels, which columns is the label for fastText training.\
 `-t`: Train_test ratio, what ratio of the data should be used for testing. This is optional, the default value is 0.2 if not specified 
 
 ## Outcome of script
