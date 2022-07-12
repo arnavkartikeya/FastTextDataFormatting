@@ -13,7 +13,7 @@ Add your csv dataset (will be called data.csv for this example) to the fastText 
 
 Run 
 ```
-./generate_txt -c data.csv -f header1,header2 -l header3 -t 0.2
+./generate_txt.sh -c data.csv -f header1,header2 -l header3 -t 0.2
 ```
 
 ## Flags for generate_txt
